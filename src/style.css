@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --c-bg:           #0c0c0c;
+  --c-surface:      #141414;
+  --c-surface-raised: #1a1a1a;
+  --c-border:       rgba(255,255,255,0.07);
+  --c-border-hover: rgba(255,255,255,0.13);
+  --c-text:         #e2e2e2;
+  --c-text-muted:   #888;
+  --c-text-faint:   #4a4a4a;
+  --c-green:        #4ade80;
+  --c-red:          #f87171;
+  --c-amber:        #fbbf24;
+  --c-blue:         #60a5fa;
+  --font-mono:      'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #app {
+  height: 100%;
+  background: var(--c-bg);
+  color: var(--c-text);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--c-border-hover); border-radius: 3px; }

@@ -1,0 +1,15 @@
+# Configuration des Raspberry Pi
+# Ajoutez, modifiez ou supprimez des entrées selon votre réseau
+
+raspberries:
+  - id: pi-test
+    name: pi-test
+    host: http://192.168.151.76:8000
+
+  - id: pi-bureau
+    name: pi-bureau
+    host: http://192.168.1.11:5000
+
+  - id: pi-garage
+    name: pi-garage
+    host: http://192.168.1.12:5000
